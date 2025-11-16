@@ -3,7 +3,6 @@
 ## Windows
 
 > Open CMD. Navigate to the desired folder using `cd`.
-> 
 > Run `git clone <remote_URL>`
 
 Or, to do it the long way,
