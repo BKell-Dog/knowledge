@@ -1,8 +1,9 @@
-## If the Repo Exists Remotely
+# If the Repo Exists Remotely
 
-#### Windows
+## Windows
 
 > Open CMD. Navigate to the desired folder using `cd`.
+> 
 > Run `git clone <remote_URL>`
 
 Or, to do it the long way,
@@ -13,7 +14,7 @@ Or, to do it the long way,
 > Run `git fetch origin`
 > Run `git checkout --track origin/master`
 
-#### Linux
+## Linux
 
 > Open the Terminal. Navigate to the desired folder using `cd`.
 > Run `git clone <remote_URL>`
