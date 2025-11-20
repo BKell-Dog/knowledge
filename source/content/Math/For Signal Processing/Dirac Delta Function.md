@@ -35,15 +35,19 @@ $$
 $$
 that is to say, we take it to be equal to one at a single point, and not infinity. This change is useful in helping integrals to converge.
 # Properties
+Symmetry:
 $$
 \delta(x) = \delta(-x)
 $$
+Scaling:
 $$
-\delta(ax) = \frac{1}{|a|}\delta(x), \quad a \neq 0
+\delta(ax) = \frac{\delta(x)}{|a|}, \quad a \neq 0
 $$
+Differentiation:
 $$
-\frac{d}{dx} \delta(x) = - \frac{d}{dx} \delta(-x)
+\delta'(x) = - \delta'(-x) \quad or \quad \delta'(-x) = - \delta'(x)
 $$
+Translation:
 $$
 \int_{-\infty}^{\infty}f(x)\>\delta(x-a)\>dx = f(a)
 $$
@@ -51,10 +55,10 @@ $$
 In a graphing context, the delta function can be moved side-to-side by subtracting some number from its argument:
 $$
 \delta(x) \to impulse\>at\>0
-$$
+$$.
 $$
 \delta(x-2) \to impulse\>at\>+2
-$$
+$$.
 $$
 \delta(x-c) \to impulse\>at\>c
 $$
@@ -63,9 +67,9 @@ $$
 The [[Heaviside Step Function]] is the integral of the Dirac Delta Function, and the delta function is the derivative of the step function:
 
 $$
-H(x-a) = \int_{-\infty}^{x} \delta(s-a) ds \quad\quad\quad \frac{d}{dx} H(x) = \delta (x)
+H(x-c) = \int_{-\infty}^{x} \delta(s-c) ds \quad\quad\quad \frac{d}{dx} H(x) = \delta (x)
 $$
-Note the value of $x$ as the upper bound of the integral: if we stop integrating before reaching the delta function, i.e. $x<a$, then the integral evaluates to zero, otherwise it evaluates to one.
+Note the value of $x$ as the upper bound of the integral: if we stop integrating before reaching the delta function, i.e. $x<c$, then the integral evaluates to zero, otherwise it evaluates to one.
 
 # Further Reading
 1. [Dirac Delta Function](https://www.math.wustl.edu/~alanchang/teaching/mathcamp/mathcamp2020_dirac_delta_function.pdf) by Alan Chang
