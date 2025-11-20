@@ -7,7 +7,7 @@ $$
 0, \quad \>\>x\neq 0
 \end{cases} \quad \quad \quad \int_{-\infty}^{\infty}\delta(x)\>dx = 1
 $$
-Mathematicians have pointed out[^1] that it is impossible for a function to satisfy both of these conditions simultaneously. Dirac himself responded to this critique by instead formulating his function as a "generalized function" or distribution (i.e. not itself a function but a class which encompasses many functions), and proposing that his integral should be interpreted as,
+Mathematicians have pointed out[^1] that it is impossible for a function to satisfy both of these conditions simultaneously, because the integral would evaluate to zero. Dirac himself responded to this critique by instead formulating his function as a "generalized function" or distribution (i.e. not itself a function but a class which encompasses many functions), and proposing that his integral should be interpreted as,
 $$
 \int_{-\infty}^{\infty}\delta(x)\>dx = \lim_{ \epsilon \to 0^+ } \int_{-\infty}^{\infty} \delta_{\epsilon}(x)\>dx
 $$
@@ -25,7 +25,6 @@ $$
 So the delta function could be any function which always has an area of one, and which approaches infinity as some quantity associated with it, $\epsilon$, approaches zero. It could be the Gaussian normal function, $\delta_{\epsilon}(x)=\frac{1}{\epsilon\sqrt{\pi}}e^\frac{-x^2}{\epsilon^2}$, a box function, $\delta_{\epsilon}(x)=\begin{cases} \frac{1}{2\epsilon}, \quad |x| < \epsilon \\0, \quad otherwise \end{cases}$ , or a triangular function, $\delta_{\epsilon}(x)=\begin{cases} \frac{1}{\epsilon}\left( 1-\frac{|x|}{\epsilon} \right), \quad |x| < \epsilon \\0, \quad otherwise \end{cases}$. In undergrad I was taught the delta function visually, shown how some functions can be made taller and thinner at the same time, and that at the limit, the function can be infinitely tall and infinitesimally thin, thereby representing an 'impulse' signal.
 
 ![[https://galileo-unbound.blog/wp-content/uploads/2022/12/sincfcn.jpg?w=2048]]
-<figcaption>A Sinc Function, from <a href="https://galileo-unbound.blog/">Gailileo Unbound</a></figcaption>
 
 In engineering, we accept this function without mathematical rigor as a useful tool that gets the job done. We also commonly define it slightly differently to the above:
 $$
@@ -39,10 +38,39 @@ that is to say, we take it to be equal to one at a single point, and not infinit
 $$
 \delta(x) = \delta(-x)
 $$
+$$
+\delta(ax) = \frac{1}{|a|}\delta(x), \quad a \neq 0
+$$
+$$
+\frac{d}{dx} \delta(x) = - \frac{d}{dx} \delta(-x)
+$$
+$$
+\int_{-\infty}^{\infty}f(x)\>\delta(x-a)\>dx = f(a)
+$$
+
+In a graphing context, the delta function can be moved side-to-side by subtracting some number from its argument:
+$$
+\delta(x) \to impulse\>at\>0
+$$
+$$
+\delta(x-2) \to impulse\>at\>+2
+$$
+$$
+\delta(x-c) \to impulse\>at\>c
+$$
+
+### The Heaviside Step Function
+The [[Heaviside Step Function]] is the integral of the Dirac Delta Function, and the delta function is the derivative of the step function:
+
+$$
+H(x-a) = \int_{-\infty}^{x} \delta(s-a) ds \quad\quad\quad \frac{d}{dx} H(x) = \delta (x)
+$$
+Note the value of $x$ as the upper bound of the integral: if we stop integrating before reaching the delta function, i.e. $x<a$, then the integral evaluates to zero, otherwise it evaluates to one.
 
 # Further Reading
 1. [Dirac Delta Function](https://www.math.wustl.edu/~alanchang/teaching/mathcamp/mathcamp2020_dirac_delta_function.pdf) by Alan Chang
 2. [Paul Dirac's Delta Function](https://galileo-unbound.blog/2022/12/17/paul-diracs-delta-function/) by David Nolte
 3. [Lecture Notes on the Dirac Delta Function, Fourier Transform, Laplace Transform](https://materia.dfa.unipd.it/salasnich/dfl/dfl.pdf) by Luca Salasnich
+4. [Delta Function](https://books.physics.oregonstate.edu/LinAlg/ch11.html) by Corinne Manogue and Tevian Dray
 
 [^1]: See [Lecture Notes on the Dirac Delta Function, Fourier Transform, Laplace Transform](https://materia.dfa.unipd.it/salasnich/dfl/dfl.pdf) by Luca Salasnich, pg. 1
