@@ -52,16 +52,7 @@ $$
 \int_{-\infty}^{\infty}f(x)\>\delta(x-a)\>dx = f(a)
 $$
 
-In a graphing context, the delta function can be moved side-to-side by subtracting some number from its argument:
-$$
-\delta(x) \to impulse\>at\>0
-$$.
-$$
-\delta(x-2) \to impulse\>at\>+2
-$$.
-$$
-\delta(x-c) \to impulse\>at\>c
-$$
+In a graphing context, the delta function can be translated by subtracting some number from its argument: $\delta(x) \to impulse\>at\>0$, $\delta(x-2) \to impulse\>at\>+2$, $\delta(x-c) \to impulse\>at\>c$. Multiplying this impulse with another function in an integral will evaluate that other function at the location of the impulse, as shown above in the Translation property.
 
 ### The Heaviside Step Function
 The [[Heaviside Step Function]] is the integral of the Dirac Delta Function, and the delta function is the derivative of the step function:
