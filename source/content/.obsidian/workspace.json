@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "7c4cac85d33b1953",
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
+            "id": "bcbdc902c5c0a92b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Web/Static Sites/Tools.md",
+                "file": "Math/For Signal Processing/Dirac Delta Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
-            }
-          },
-          {
-            "id": "2d8837e6263008e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "category-folder/Some note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Some note"
+              "title": "Dirac Delta Function"
             }
           }
         ]
@@ -127,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software/Web/Static Sites/Tools.md",
+                "file": "Math/For Signal Processing/Dirac Delta Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tools"
+              "title": "Outgoing links from Dirac Delta Function"
             }
           },
           {
@@ -156,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software/Web/Static Sites/Tools.md",
+                "file": "Math/For Signal Processing/Dirac Delta Function.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tools"
+              "title": "Outline of Dirac Delta Function"
             }
           }
         ],
@@ -182,14 +168,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "circuit-sketcher:Create new Circuit Sketcher file": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47ef711f7e8c1d64",
+  "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
-    "Science/Biology and Health/Metabolism/Articles.md",
+    "Math/For Signal Processing/Dirac Delta Function.md",
+    "Math/For Signal Processing/Heaviside Step Function.md",
+    "Math/Calculus/The Integral.md",
+    "Biographies/Oliver Heaviside.md",
+    "Biographies",
+    "Math/For Signal Processing/Convolution.md",
+    "Software/Web/Websites I Like.md",
+    "Math/For Signal Processing",
+    "Science/Biology and Health/EMF/Studies.md",
     "Software/Web/Static Sites/Tools.md",
+    "Science/Biology and Health/Metabolism/Articles.md",
     "Software/Web/Static Sites",
     "Science/Sociology/IQ/Articles.md",
     "Science/Biology and Health/Metabolism",
@@ -201,7 +195,6 @@
     "Science/Biology and Health/EMF",
     "Science/Biology and Health",
     "Math/Calculus/The Fourier Transform.md",
-    "Math/Calculus/The Integral.md",
     "Science/Physics/Circuits/Oscillating Circuits.md",
     "Science/Physics/Circuits/The Capacitor.md",
     "Science/Physics/Circuits/The Inductor.md",
@@ -209,8 +202,6 @@
     "Science/Physics/Electromagnetism/The Maxwell Equations.md",
     "Math/Calculus/The Differential.md",
     "Engineering/Electrical Engineering/RF/Multipathing.md",
-    "Science/Physics/Quantum",
-    "Science/Physics/Electromagnetism",
     "Science/Physics/Electromagnetism.md",
     "Software/Web/Github/Init a Repo.md",
     "index.md",
