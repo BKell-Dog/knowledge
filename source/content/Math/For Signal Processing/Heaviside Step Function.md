@@ -1,4 +1,5 @@
 # Origin
+Named for [[Oliver Heaviside]].
 
 # Definition
 
@@ -53,7 +54,8 @@ The Fourier Transform of the Heaviside Step Function is the following:
 
 
 
-# References
+# Further Reading
 
 1. [The Fourier Transform of the Heaviside Function: A Tragedy](https://www.cs.uaf.edu/~bueler/M611heaviside.pdf)
+2. [The Fourier Transform of the Heaviside Step Function](https://jk-jeon.github.io/posts/2024/08/the-fourier-transform-of-the-heaviside-step-function/) by Junekey Jeon
 

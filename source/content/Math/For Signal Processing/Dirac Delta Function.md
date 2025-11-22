@@ -1,3 +1,5 @@
+# Origin
+Named for [[Paul Dirac]].
 # Definition
 The Dirac Function as used in engineering is not rigorously mathematically defined. It is supposed to have the following two constraints simultaneously,
 
@@ -61,6 +63,9 @@ $$
 H(x-c) = \int_{-\infty}^{x} \delta(s-c) ds \quad\quad\quad \frac{d}{dx} H(x) = \delta (x)
 $$
 Note the value of $x$ as the upper bound of the integral: if we stop integrating before reaching the delta function, i.e. $x<c$, then the integral evaluates to zero, otherwise it evaluates to one.
+
+# Uses
+See [[Convolution]].
 
 # Further Reading
 1. [Dirac Delta Function](https://www.math.wustl.edu/~alanchang/teaching/mathcamp/mathcamp2020_dirac_delta_function.pdf) by Alan Chang

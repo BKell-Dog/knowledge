@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/For Signal Processing/Dirac Delta Function.md",
+                "file": "Science/Physics/Electromagnetism/Electricity/Static Electric Fields.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dirac Delta Function"
+              "title": "Static Electric Fields"
             }
           }
         ]
@@ -173,12 +173,15 @@
   },
   "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
-    "Math/For Signal Processing/Heaviside Step Function.md",
     "Math/For Signal Processing/Dirac Delta Function.md",
-    "Math/Calculus/The Integral.md",
-    "Biographies/Oliver Heaviside.md",
-    "Biographies",
+    "Science/Physics/Electromagnetism/Electricity/Static Electric Fields.md",
+    "Science/Physics/Electromagnetism/Electricity",
+    "Math/For Signal Processing/Heaviside Step Function.md",
     "Math/For Signal Processing/Convolution.md",
+    "Biographies/Paul Dirac.md",
+    "Biographies/Oliver Heaviside.md",
+    "Math/Calculus/The Integral.md",
+    "Biographies",
     "Software/Web/Websites I Like.md",
     "Math/For Signal Processing",
     "Science/Biology and Health/EMF/Studies.md",
@@ -198,7 +201,6 @@
     "Science/Physics/Circuits/Oscillating Circuits.md",
     "Science/Physics/Circuits/The Capacitor.md",
     "Science/Physics/Circuits/The Inductor.md",
-    "Science/Physics/Circuits",
     "Science/Physics/Electromagnetism/The Maxwell Equations.md",
     "Math/Calculus/The Differential.md",
     "Engineering/Electrical Engineering/RF/Multipathing.md",
