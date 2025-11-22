@@ -18,3 +18,4 @@ $$
 \hat{F}_{e} = k\>\frac{q_{1} \> q_{2}}{\epsilon\>r^2} \hat{a}_{r}
 $$
 Note that if the charges are the same polarity, both positive or both negative, then the force on each charge will point away from the other. Likewise, if the charges are opposite in polarity, one positive and one negative, then the force vector will also turn out negative and the force will point towards the other charge. Thus we have represented the attraction and repulsion of like and unlike charges.
+
