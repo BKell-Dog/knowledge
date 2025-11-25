@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Physics/Electromagnetism/EM Waves/Plane Waves.md",
+                "file": "Science/Physics/Electricity/Coulomb's Law.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plane Waves"
+              "title": "Coulomb's Law"
             }
           }
         ]
@@ -171,15 +171,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
+    "Science/Physics/Electricity/Static Electric Fields.md",
+    "Science/Physics/Electricity/Coulomb's Law.md",
+    "Software/Web/Websites I Like.md",
+    "Science/Physics/Electricity",
+    "Science/Sociology/IQ/Articles.md",
+    "Science/Physics/Circuits/Oscillating Circuits.md",
+    "Science/Physics/Electromagnetism/Electricity/Coulomb's Law.md",
+    "Science/Physics/Electromagnetism/Electricity/Static Electric Fields.md",
+    "Science/Physics/Electromagnetism/EM Waves/Plane Waves.md",
     "Science/Physics/Electromagnetism/EM Waves/Waveguides",
     "Science/Physics/Electromagnetism/EM Waves/Polarization.md",
-    "Science/Physics/Electromagnetism/EM Waves/Plane Waves.md",
     "Science/Physics/Electromagnetism/EM Waves/Waves in Imperfect Dielectrics and Conductors.md",
     "Science/Physics/Electromagnetism/EM Waves/Reflections and Refractions.md",
     "Science/Physics/Electromagnetism/The Maxwell Equations.md",
-    "Science/Physics/Electromagnetism/Electricity/Static Electric Fields.md",
     "Science/Physics/Electromagnetism/EM Waves",
     "Math/For Signal Processing/Dirac Delta Function.md",
     "Science/Physics/Electromagnetism/Electricity",
@@ -189,25 +196,18 @@
     "Biographies/Oliver Heaviside.md",
     "Math/Calculus/The Integral.md",
     "Biographies",
-    "Software/Web/Websites I Like.md",
     "Math/For Signal Processing",
     "Science/Biology and Health/EMF/Studies.md",
     "Software/Web/Static Sites/Tools.md",
     "Science/Biology and Health/Metabolism/Articles.md",
     "Software/Web/Static Sites",
-    "Science/Sociology/IQ/Articles.md",
     "Science/Biology and Health/Metabolism",
     "Science/Biology and Health/EMF/Radiofrequency Ablation.md",
     "Science/Sociology/IQ",
     "Science/Sociology",
-    "Science/Ecology",
     "Engineering/Electrical Engineering/RF/Frequency Modulation.md",
-    "Science/Biology and Health/EMF",
     "Math/Calculus/The Fourier Transform.md",
-    "Science/Physics/Circuits/Oscillating Circuits.md",
     "Science/Physics/Circuits/The Capacitor.md",
-    "Science/Physics/Circuits/The Inductor.md",
-    "Math/Calculus/The Differential.md",
-    "Engineering/Electrical Engineering/RF/Multipathing.md"
+    "Science/Physics/Circuits/The Inductor.md"
   ]
 }
