@@ -47,11 +47,10 @@ f(a)=c_{0}+c_{1}*0+c_{2}*0+c_{3}*0+\dots
 \end{align}
 $$
 therefore $c_{0}=f(a)$. We can also differentiate (3) to obtain the following, and then plug in $a$ once more:
-$$
-f'(x)=c_{1}+2c_{2}(x-a)+3c_{3}(x-a)^2+\dots
-$$,
-$$
-f'(a)=c_{1}+2c_{2}*0+3c_{3}*0+\dots = c_{1}
+$$ \begin{aligned}
+f'(x)&=c_{1}+2c_{2}(x-a)+3c_{3}(x-a)^2+\dots \\ \\
+f'(a)&=c_{1}+2c_{2}*0+3c_{3}*0+\dots = c_{1}
+\end{aligned}
 $$
 Therefore $c_{1}=f'(a)$. We can differentiate once more and plug in $a$ again:
 $$ \begin{aligned}
