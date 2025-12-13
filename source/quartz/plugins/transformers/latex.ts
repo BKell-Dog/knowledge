@@ -33,7 +33,7 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
     },
     htmlPlugins() {
       if (engine === "katex") {
-        return [[rehypeKatex, katesConfig]]
+        return [[rehypeKatex, katexConfig]]
       } else {
         return [[rehypeMathjax, { macros }]]
       }
