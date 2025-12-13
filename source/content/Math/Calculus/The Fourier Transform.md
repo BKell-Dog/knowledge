@@ -6,11 +6,10 @@ There are problems which could not
 
 The basic proposition of Fourier's idea was that any function could be formulated as an infinite sum of an infinite series of cosines, each of which has a different coefficient determining its magnitude, some being more influential, some being less. Then instead of describing a function by its own formula, we could describe it in terms of an infinite (or finite!) series of coefficients.
 
-$$ \begin{aligned}
-F(u) = \frac{2}{\pi} \int_{0}^{\infty} f(x)\,\cos(ux)\, dx
+$$
+F(u) = \frac{2}{\pi} \int_{0}^{\infty} f(x)\,\cos(ux)\, dx \\ \\
 
 f(x) = \int_{0}^{\infty} F(u) \, \cos(ux) \, dx
-\end{aligned}
 $$
 
 # References
