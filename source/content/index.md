@@ -1,10 +1,5 @@
 ---
-title: Knowledge
+title: Kelly's Lab Knowledge Base
 ---
-
-Hello world!
-
-Write some words here!
-
-## Content by Category
+Welcome to my knowledge base. I will be continuously developing this to document the most important knowledge that contributes to my skills. This will capture formal knowledge (calculus, engineering, etc.), as well as life skills and aesthetic preferences (design, art, etc.).
 
