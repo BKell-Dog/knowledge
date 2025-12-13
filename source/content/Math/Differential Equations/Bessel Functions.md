@@ -1,14 +1,13 @@
 # Definition
 A Bessel function is one which is a solution to the following differential equation:
-$$ \begin{equation}
+$$
 x^2y''+xy'+(x^2-p^2)y=0 \tag{1}
-\end{equation}
 $$
 where $p$ is any constant and $y=y(x)$. The *order* of the Bessel function is defined by this constant $p$, which can be integer, half-integer, complex, etc., but which is most often a non-negative real number.
 
 # Solutions
 
-## Derivation of a Solution
+## Derivation of a Generic Solution
 
 We can take equation (1) and divide it by $x^2$ to get, for $x>0$, 
 $$
