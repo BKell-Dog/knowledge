@@ -6,12 +6,4 @@ f(x)=\sum_{n=0}^{\infty} c_{n}(x-a)^n=\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(
 $$
 2. $f(x)$ is infinitely differentiable everywhere on its domain, meaning that it has derivatives of every order which exist at all points on its domain.
 
-test
-$$
-\R
-$$
-$$
-newline \n newline2
-$$
-
 [^1]: See [[The Taylor Series]].
