@@ -1,3 +1,4 @@
+The Taylor Series is a [[Power Series]] which is used to represent any function as an infinite sum of polynomials, which is useful for representing difficult functions in a form that is easier to work with.
 # Definition
 
 $$
@@ -19,9 +20,9 @@ We see clearly here that $y=x$ is dominant on this interval: it has a greater ma
 
 ![[TaylorSeries2.png]]
 
-Now we see an interesting property emerge! $y=x$ remains dominant while $x<2$, but once $x$ becomes greater than 2 it is actually $y=x^2$ that becomes the dominant function, and it remains dominant until $x=3$, after which it is overtaken by $y=x^3$. Then $y=x^3$ is dominant before being overtaken by $y=x^4$, and so on. Thus it is revealed that the dominance of $y=x$ is restricted to a finite window, $[-2, 2]$; and likewise there is a window in which $y=x^2$ is dominant above all other functions, including those of higher order than itself, that being $[2, 3]$ as well as $[-3, -2]$ . An infinite comparison of powers of $x$ would reveal that each power has a specific window in which it takes precedence before being overpowered by the next in line. It is also revealed that these windows are dependent on distance from the "centerpoint" being considered ($x=0$ in this example).
+Now we see an interesting property emerge! $y=x$ remains dominant while $x<2$, but once $x$ becomes greater than 2 it is actually $y=x^2$ that becomes the dominant function, and it remains dominant until $x=3$, after which it is overtaken by $y=x^3$. Then $y=x^3$ is dominant before being overtaken by $y=x^4$, and so on. Thus it is revealed that the dominance of $y=x$ is restricted to a finite window, $[-2, 2]$; and likewise there is an interval on which $y=x^2$ is dominant above all other functions, including those of higher order than itself, that being $[2, 3]$ as well as $[-3, -2]$ . An infinite comparison of powers of $x$ would reveal that each power has a specific window in which it takes precedence before being overpowered by the next in line. It is also revealed that these windows are dependent on distance from the "centerpoint" being considered ($x=0$ in this example).
 
-Therefore regarding the task of representing any arbitrary function, an infinite series of polynomials is apparently a highly qualified candidate (polynomials might be uniquely suited for this challenge), but only if they are modified by an infinite series of coefficients which "press down" on the higher-order functions before they can "take off" and overtake the lower order functions. Without these coefficients, a normal comparison of $y=x$ through $y=x^5$ would show that for $x>1$ it is $x^5$ that is dominant at all points, thus ruining this elegant emergent quality. It is also appropriate that the higher-order powers of $x^n$ are "clamped down" in proportion to the power to which $x$ is raised, beautifully encapsulated in the coefficient's divisor being $n!$.
+Therefore to fulfill the task of representing any arbitrary function, an infinite series of polynomials is apparently a highly qualified candidate (polynomials are perhaps uniquely suited for this challenge), but only if they are modified by an infinite series of coefficients which "press down" on the higher-order functions before they can "take off" and overtake the lower order functions. Without these coefficients, a normal comparison of $y=x$ through $y=x^5$ would show that for $x>1$ it is $x^5$ that is dominant at all points, thus ruining this elegant emergent quality. It is also appropriate that the higher-order powers of $x^n$ are "clamped down" in proportion to the power to which $x$ is raised, beautifully encapsulated in the Taylor coefficient's divisor being $n!$.
 
 We see these windows clearly in a graphic like this, below. For each higher power of $x$ that is added to the sum, the resulting function approximates the desired function better *only at a certain distance from the centerpoint!* It is visually evident that using this method, we are able to "steer" the function upwards or downwards as we move away from the centerpoint with almost total control, and without affecting the parts of the resulting function that we've "moved past".
 
@@ -33,7 +34,7 @@ f(x)=\sum_{n=0}^{\infty} c_{n}(x-a)^n \tag{2}
 $$
 where $a$ represents the centerpoint being considered along the x-axis, and $c_{n}$ is the series of coefficients.
 
-An astute mathematician will also note that this property of polynomials to approximate a function only holds for those which are continuous. A discontinuity can never be bridged by smooth polynomials.
+An astute mathematician will also note that this property of polynomials to approximate a function only holds if the desired function is continuous. A discontinuity can never be bridged by smooth polynomials.
 ## Coefficients
 We have seen why polynomials are suitable as "building blocks" for the Taylor Series, and that they only qualify if each term is modified by a coefficient that is finely tuned to the specific function we want to approximate. Therefore out next challenge is discovering how to acquire the right series of coefficients.
 
@@ -52,8 +53,8 @@ f'(a)=c_{1}+2c_{2}*0+3c_{3}*0+\dots = c_{1}
 $$
 Therefore $c_{1}=f'(a)$. We can differentiate once more and plug in $a$ again:
 $$
-f''(x)&=2c_{2}+6c_{3}(x-a)+12c_{4}(x-a)^2+\dots \\[1.5em]
-f''(a)&=2c_{2}+6c_{3}*0+12c_{4}*0+\dots=2c_{2}
+f''(x)=2c_{2}+6c_{3}(x-a)+12c_{4}(x-a)^2+\dots \\[1.5em]
+f''(a)=2c_{2}+6c_{3}*0+12c_{4}*0+\dots=2c_{2}
 $$
 to find that $2c_{2}=f''(a)$ or $c_{2}=\frac{f''(a)}{2}$. One can now see that any $c_{n}$ will be equal to the n-th derivative of $f(a)$, divided by the factorial of however many times the function has been differentiated. It is significant that for any order of differentiation, all lower powers are removed and all higher powers go to zero. Finding the value of $c_{11}$ will have one differentiating the function 11 times, which will eliminate the first 10 terms, $c_{1} - c_{10}$, which will lead to a divisor of $1*2*3*4*5*6*7*8*9*10*11=11!$ and thence to $c_{11}=\frac{f^{11}(a)}{11!}$.
 
@@ -84,3 +85,5 @@ This series is able to represent any function as a sum of polynomials, allowing 
 Take the function $f(x)=\frac{1}{1-x}$. This function is undefined at $x=1$: from the left, it goes to $\infty$, and from the right it goes to $-\infty$, with a discontinuity at $x=1$. Therefore, any series approximation performed about a point to the left of this discontinuity will converge to $f(x)<1$, while if performed about a point to the right of it, it will approximate $f(x)>1$.
 
 ## Radius of Convergence
+
+# Examples

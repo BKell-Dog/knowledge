@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Differential Equations/Bessel Functions.md",
+                "file": "Math/Complex Analysis/Analytical.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bessel Functions"
+              "title": "Analytical"
             }
           }
         ]
@@ -173,14 +173,15 @@
   },
   "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
+    "Math/Calculus/The Taylor Series.md",
+    "Math/Complex Analysis/Analytical.md",
+    "Math/Differential Equations/Bessel Functions.md",
     "Math/Complex Analysis/Continuity.md",
     "Math/Calculus/Power Series.md",
     "Math/Calculus/The Differential.md",
     "Math/Calculus/The Fourier Transform.md",
     "Math/Calculus/The Integral.md",
-    "Math/Calculus/The Taylor Series.md",
     "index.md",
-    "Math/Differential Equations/Bessel Functions.md",
     "Math/Calculus/assets/TaylorSeries2.png",
     "Math/Calculus/assets/TaylorSeriesGif.gif",
     "Math/Calculus/assets/Unconfirmed 635415.crdownload",
@@ -209,7 +210,6 @@
     "Math/For Signal Processing/Heaviside Step Function.md",
     "Math/For Signal Processing/Convolution.md",
     "Biographies/Paul Dirac.md",
-    "Biographies/Oliver Heaviside.md",
     "Biographies",
     "Math/For Signal Processing"
   ]
