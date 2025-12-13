@@ -12,6 +12,18 @@ interface MacroType {
   [key: string]: string
 }
 
+function remarkSanitizeMath() {
+  return (tree: any) => {
+    visit(tree, (node: any) => {
+      if (node.type === "math" || node.type === "inlineMath") {
+        node.value = node.value
+          .replace(/\u200B/g, "")  // zero-width space
+          .replace(/\uFEFF/g, ""); // BOM
+      }
+    });
+  };
+}
+
 export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   const engine = opts?.renderEngine ?? "katex"
   const macros = opts?.customMacros ?? {}
@@ -19,7 +31,7 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   return {
     name: "Latex",
     markdownPlugins() {
-      return [remarkMath]
+      return [remarkMath, remarkSanitizeMath]
     },
     htmlPlugins() {
       if (engine === "katex") {
