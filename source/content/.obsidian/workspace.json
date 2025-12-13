@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Web/Sites I Like.md",
+                "file": "Math/Calculus/The Taylor Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sites I Like"
+              "title": "The Taylor Series"
             }
           }
         ]
@@ -173,9 +173,22 @@
   },
   "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
+    "Math/Differential Equations/Bessel Functions.md",
+    "Math/Complex Analysis/Continuity.md",
+    "Math/Calculus/The Taylor Series.md",
+    "Math/Calculus/assets/TaylorSeries2.png",
+    "Math/Calculus/assets/TaylorSeriesGif.gif",
+    "Math/Calculus/assets/Unconfirmed 635415.crdownload",
+    "Math/Calculus/assets/TaylorSeries1.png",
+    "Math/Calculus/assets",
+    "Math/Calculus/The Fourier Transform.md",
+    "Math/Calculus/Power Series.md",
+    "Math/Complex Analysis",
+    "Software/Web/Sites I Like.md",
+    "Math/Differential Equations",
+    "Science/Biology and Health/EMF/Studies.md",
     "Science/Physics/Electricity/Static Electric Fields.md",
     "Science/Physics/Electricity/Coulomb's Law.md",
-    "Software/Web/Sites I Like.md",
     "Science/Physics/Electricity",
     "Science/Sociology/IQ/Articles.md",
     "Science/Physics/Circuits/Oscillating Circuits.md",
@@ -197,17 +210,6 @@
     "Math/Calculus/The Integral.md",
     "Biographies",
     "Math/For Signal Processing",
-    "Science/Biology and Health/EMF/Studies.md",
-    "Software/Web/Static Sites/Tools.md",
-    "Science/Biology and Health/Metabolism/Articles.md",
-    "Software/Web/Static Sites",
-    "Science/Biology and Health/Metabolism",
-    "Science/Biology and Health/EMF/Radiofrequency Ablation.md",
-    "Science/Sociology/IQ",
-    "Science/Sociology",
-    "Engineering/Electrical Engineering/RF/Frequency Modulation.md",
-    "Math/Calculus/The Fourier Transform.md",
-    "Science/Physics/Circuits/The Capacitor.md",
-    "Science/Physics/Circuits/The Inductor.md"
+    "Software/Web/Static Sites/Tools.md"
   ]
 }

@@ -3,7 +3,7 @@
 
 [Manmade Electromagnetic Fields and Oxidative Stress-Biological Effects and Consequences for Health](https://pubmed.ncbi.nlm.nih.gov/33917298/) by Schuermann and Mevissen
 
-[Electric Polarization and the Viability of Living Systems: Ion Cyclotron Resonance-like Interactions] by A. R. Liboff
+[Electric Polarization and the Viability of Living Systems: Ion Cyclotron Resonance-like Interactions](https://pubmed.ncbi.nlm.nih.gov/19811395/) by A. R. Liboff
 
 [Magnetic-Field-Induced DNA Strand Breaks in Brain Cells of the Rat](https://pmc.ncbi.nlm.nih.gov/articles/PMC1241963/) by Lai and Singh
 

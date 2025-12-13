@@ -12,6 +12,12 @@ Sites which are beautifully designed.
 [maxxthedesigner](https://maxpotze.com/)
 
 [Amber.ag](https://www.amber.ag/)
+
+[Hadrian](https://www.hadrian.co/)
+
+[000010](https://000010.neocities.org/)
+
+[opacity.ru](https://opacity.ru/)
 ## Blogs
 Hardware, Electronics, Reverse Engineering
 [Ken Shirrif's Blog - Computer history, restoring vintage computers, IC reverse engineering, and whatever](https://www.righto.com/)
@@ -25,7 +31,13 @@ Hardware, Electronics, Reverse Engineering
 Long Posts
 [Just Fucking Use HTML](https://justfuckingusehtml.com/)
 
+## Decentralization
+[Sovereign Engineering](https://sovereignengineering.io/)
+
 # Personal Tools
+
+[TinyTools - Directory of Small Tools](https://tinytools.directory/)
+
 ## Productivity Tools
 [RxResume - React Resume Builder](https://rxresu.me/)
 ## File Management
