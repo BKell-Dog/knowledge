@@ -16,16 +16,6 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   const engine = opts?.renderEngine ?? "katex"
   const macros = opts?.customMacros ?? {}
 
-  // sensible defaults for katex; user options override these
-  const katexDefaults = {
-    output: "html", // your pipeline expects HTML from rehype-katex
-    throwOnError: false,
-    // don't force displayMode here; rendering pipeline sets that per-block
-    newLineInDisplayMode: true, // default false — we'll enable it if user wants
-  };
-
-  const katexConfig = { ...katexDefaults, macros };
-
   return {
     name: "Latex",
     markdownPlugins() {
@@ -33,7 +23,7 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
     },
     htmlPlugins() {
       if (engine === "katex") {
-        return [[rehypeKatex, katexConfig]]
+        return [[rehypeKatex, { output: "html", newLineInDispayMode: true, macros }]]
       } else {
         return [[rehypeMathjax, { macros }]]
       }
