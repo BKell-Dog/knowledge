@@ -75,11 +75,11 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   return {
     name: "Latex",
     markdownPlugins() {
-      return [remarkMath, remarkSanitizeMath]
+      return [remarkMath, remarkSanitizeMath, remarkDebugMath]
     },
     htmlPlugins() {
       if (engine === "katex") {
-        return [[rehypeKatex, { output: "html", newLineInDisplayMode: true, macros }]]
+        return [[rehypeKatex, { output: "html", macros }]]
       } else {
         return [[rehypeMathjax, { macros }]]
       }
