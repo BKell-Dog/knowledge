@@ -28,9 +28,8 @@ We see these windows clearly in a graphic like this, below. For each higher powe
 ![[TaylorSeriesGif.gif]]
 
 For these reasons, and without knowing precisely what the desired coefficients are (I willfully jumped the gun earlier to demonstrate the validity of this idea), we can say that there is an infinite series of polynomials which can approximate any arbitrary function, which conforms to the following formulae:
-$$ \begin{align}
+$$
 f(x)=\sum_{n=0}^{\infty} c_{n}(x-a)^n \tag{2}
-\end{align}
 $$
 where $a$ represents the centerpoint being considered along the x-axis, and $c_{n}$ is the series of coefficients.
 
@@ -47,10 +46,9 @@ $$
 f(a)=c_{0}+c_{1}*0+c_{2}*0+c_{3}*0+\dots
 $$
 therefore $c_{0}=f(a)$. We can also differentiate (3) to obtain the following, and then plug in $a$ once more:
-$$ \begin{aligned}
-f'(x)&=c_{1}+2c_{2}(x-a)+3c_{3}(x-a)^2+\dots \\ \\
+$$
+f'(x)&=c_{1}+2c_{2}(x-a)+3c_{3}(x-a)^2+\dots \\\
 f'(a)&=c_{1}+2c_{2}*0+3c_{3}*0+\dots = c_{1}
-\end{aligned}
 $$
 Therefore $c_{1}=f'(a)$. We can differentiate once more and plug in $a$ again:
 $$ \begin{aligned}
