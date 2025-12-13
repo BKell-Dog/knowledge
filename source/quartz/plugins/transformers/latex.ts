@@ -24,6 +24,14 @@ function remarkSanitizeMath() {
     });
   };
 }
+function remarkDebugMath() {
+  return (tree: any) => {
+    visit(tree, "math", (node: any) => {
+      console.log("RAW MATH NODE:");
+      console.log(JSON.stringify(node.value));
+    });
+  };
+}
 
 export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   const engine = opts?.renderEngine ?? "katex"
@@ -32,7 +40,7 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   return {
     name: "Latex",
     markdownPlugins() {
-      return [remarkMath, remarkSanitizeMath]
+      return [remarkMath, remarkDebugMath]
     },
     htmlPlugins() {
       if (engine === "katex") {
