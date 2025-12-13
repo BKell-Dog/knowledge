@@ -42,26 +42,28 @@ $$
 f(x)=c_{0}​+c_{1}​(x−a)+c_{2}​(x−a)^2+c_{3}​(x−a)^3+\dots \tag{3}
 $$
 This is the Taylor Series (2) expanded. Now it is also possible to plug $a$, our centerpoint, into this function,
-$$
+$$ \begin{align}
 f(a)=c_{0}+c_{1}*0+c_{2}*0+c_{3}*0+\dots
+\end{align}
 $$
 therefore $c_{0}=f(a)$. We can also differentiate (3) to obtain the following, and then plug in $a$ once more:
 $$ \begin{aligned}
-f'(x)&=c_{1}+2c_{2}(x-a)+3c_{3}(x-a)^2+\dots \\ \\
+f'(x)&=c_{1}+2c_{2}(x-a)+3c_{3}(x-a)^2+\dots \newline \newline
 f'(a)&=c_{1}+2c_{2}*0+3c_{3}*0+\dots = c_{1}
 \end{aligned}
 $$
 Therefore $c_{1}=f'(a)$. We can differentiate once more and plug in $a$ again:
 $$ \begin{aligned}
-f''(x)&=2c_{2}+6c_{3}(x-a)+12c_{4}(x-a)^2+\dots \\ \\
+f''(x)&=2c_{2}+6c_{3}(x-a)+12c_{4}(x-a)^2+\dots \newline \newline
 f''(a)&=2c_{2}+6c_{3}*0+12c_{4}*0+\dots=2c_{2}
 \end{aligned}
 $$
 to find that $2c_{2}=f''(a)$ or $c_{2}=\frac{f''(a)}{2}$. One can now see that any $c_{n}$ will be equal to the n-th derivative of $f(a)$, divided by the factorial of however many times the function has been differentiated. Finding the value of $c_{11}$ will have one differentiating the function 11 times, which will eliminate the first 10 terms, $c_{1} - c_{10}$, which will lead to a divisor of $1*2*3*4*5*6*7*8*9*10*11=11!$ and thence to $c_{11}=\frac{f^{11}(a)}{11!}$.
 
 Following this pattern, we can establish the factor, $c_{n}$, which modifies each term of the Taylor Series, as the following:
-$$
+$$ \begin{align}
 c_{n}=\frac{f^n(a)}{n!}
+\end{align}
 $$
 An astute mathematician will notice that this coefficient is only possible for functions which are infinitely differentiable, and which remain continuous for each differentiation (this is because we  assumed that each differentiation can also be represented by an infinite series with coefficients, and that is only possible if the differentiation is also continuous).
 ## The Interval
@@ -73,8 +75,9 @@ Also, due to the differentiability requirement of the Series, the interval must 
 
 ## The Finished Equation
 Thus we have derived both parts of the Taylor Series, the coefficient and the polynomial, and hopefully I have explained their derivation to a satisfactory extent. Our finished Series equation is,
-$$
+$$ \begin{align}
 f(x)=\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n \tag{1}
+\end{align}
 $$
 This series is able to represent any function as a sum of polynomials, allowing us to perform many operations on a function which would otherwise seem impossible or confusing. We also have a list of requirements that a function must meet in order for a Taylor Series to be possible:
 
