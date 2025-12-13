@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Calculus/The Taylor Series.md",
+                "file": "Math/Calculus/The Fourier Transform.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Taylor Series"
+              "title": "The Fourier Transform"
             }
           }
         ]
@@ -173,8 +173,9 @@
   },
   "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
-    "index.md",
     "Math/Calculus/The Taylor Series.md",
+    "Math/Calculus/The Fourier Transform.md",
+    "index.md",
     "Math/Differential Equations/Bessel Functions.md",
     "Math/Complex Analysis/Continuity.md",
     "Math/Calculus/assets/TaylorSeries2.png",
@@ -182,7 +183,6 @@
     "Math/Calculus/assets/Unconfirmed 635415.crdownload",
     "Math/Calculus/assets/TaylorSeries1.png",
     "Math/Calculus/assets",
-    "Math/Calculus/The Fourier Transform.md",
     "Math/Calculus/Power Series.md",
     "Math/Complex Analysis",
     "Software/Web/Sites I Like.md",

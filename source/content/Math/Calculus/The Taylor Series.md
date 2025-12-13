@@ -58,7 +58,7 @@ f''(x)&=2c_{2}+6c_{3}(x-a)+12c_{4}(x-a)^2+\dots \newline \newline
 f''(a)&=2c_{2}+6c_{3}*0+12c_{4}*0+\dots=2c_{2}
 \end{aligned}
 $$
-to find that $2c_{2}=f''(a)$ or $c_{2}=\frac{f''(a)}{2}$. One can now see that any $c_{n}$ will be equal to the n-th derivative of $f(a)$, divided by the factorial of however many times the function has been differentiated. Finding the value of $c_{11}$ will have one differentiating the function 11 times, which will eliminate the first 10 terms, $c_{1} - c_{10}$, which will lead to a divisor of $1*2*3*4*5*6*7*8*9*10*11=11!$ and thence to $c_{11}=\frac{f^{11}(a)}{11!}$.
+to find that $2c_{2}=f''(a)$ or $c_{2}=\frac{f''(a)}{2}$. One can now see that any $c_{n}$ will be equal to the n-th derivative of $f(a)$, divided by the factorial of however many times the function has been differentiated. It is significant that for any order of differentiation, all lower powers are removed and all higher powers go to zero. Finding the value of $c_{11}$ will have one differentiating the function 11 times, which will eliminate the first 10 terms, $c_{1} - c_{10}$, which will lead to a divisor of $1*2*3*4*5*6*7*8*9*10*11=11!$ and thence to $c_{11}=\frac{f^{11}(a)}{11!}$.
 
 Following this pattern, we can establish the factor, $c_{n}$, which modifies each term of the Taylor Series, as the following:
 $$ \begin{align}
