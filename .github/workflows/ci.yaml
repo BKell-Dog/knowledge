@@ -85,3 +85,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Stage site for Neocities (place built site under /knowledge)
+        run: |
+          rm -rf deploy
+          mkdir -p deploy/knowledge
+          cp -a ./source/public/. deploy/knowledge/
+          echo "Staged deploy/knowledge with contents:"
+          ls -la deploy/knowledge
+
+      - name: Deploy to Neocities
+        uses: bcomnes/deploy-to-neocities@v2.0.2
+        with:
+          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          cleanup: false
+          dist_dir: deploy
