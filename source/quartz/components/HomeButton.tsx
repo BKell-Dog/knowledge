@@ -5,7 +5,7 @@ import type { QuartzComponent, QuartzComponentConstructor } from "./types";
 const HomeButton: QuartzComponent = () => {
   return (
     <a className="q-home-btn" href="/home/">
-      Home
+      ← Home
     </a>
   );
 };
