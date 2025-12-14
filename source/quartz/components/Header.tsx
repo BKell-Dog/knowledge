@@ -19,12 +19,4 @@ header h1 {
 }
 `
 
-export default (() => {
-  return (
-    <header class="header">
-      <div class="header-left">
-        <a href="/home/" class="header-home">Home</a>
-      </div>
-    </header>
-  )
-}) satisfies QuartzComponentConstructor
+export default (() => Header) satisfies QuartzComponentConstructor

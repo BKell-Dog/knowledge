@@ -5,6 +5,7 @@ import NotFound from "./pages/404"
 import ArticleTitle from "./ArticleTitle"
 import Darkmode from "./Darkmode"
 import Head from "./Head"
+import HomeButtom from "./HomeButton"
 import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
@@ -28,6 +29,7 @@ export {
   FolderContent,
   Darkmode,
   Head,
+  HomeButton,
   PageTitle,
   ContentMeta,
   Spacer,
