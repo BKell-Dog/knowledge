@@ -74,7 +74,9 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "katex",
                       katex: {
                         macros: { 
-                          "\\R": "\\mathbb{R}"
+                          "\\R": "\\mathbb{R}",
+                          "\\linebreak": "\\[1.5em]",
+                          "\\linecont": "\\[0.2em]"
                         },
                       }
                   }),
