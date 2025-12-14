@@ -5,9 +5,9 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.Nav({
+    Component.Header({
       links: [
-        { title: "Home", url: "/home/" }
+        { title: "Home", url: "https://bkelldog.neocities.org/home/" }
       ],
     }),
   ],
