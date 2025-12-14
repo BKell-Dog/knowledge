@@ -20,8 +20,8 @@ $$
 We can then differentiate to acquire $y'$ and $y''$, and substitute into the Bessel function (1):
 $$
 y'=\sum_{n=0}^{\infty}a_{n}(\alpha+n)x^{\alpha+n-1} \\[1.5em]
-y''=\sum_{n=0}^{\infty}a_{n}(\alpha+n)(\alpha+n-1)x^{\alpha+n-2} \\[1.5em] \\[1.5em]
-\implies \sum_{n=0}^{\infty}a_{n}(\alpha+n)(\alpha+n-1)x^{\alpha+n} + \sum_{n=0}^{\infty}a_{n}(\alpha+n)x^{\alpha+n} \linecont + \sum_{n=0}^{\infty}(x^2-p^2)a_{n}x^{\alpha+n} = 0 \tag{3}
+y''=\sum_{n=0}^{\infty}a_{n}(\alpha+n)(\alpha+n-1)x^{\alpha+n-2} \\[1.5em]
+\implies \sum_{n=0}^{\infty}a_{n}(\alpha+n)(\alpha+n-1)x^{\alpha+n} + \sum_{n=0}^{\infty}a_{n}(\alpha+n)x^{\alpha+n} \\[0.2em] + \sum_{n=0}^{\infty}(x^2-p^2)a_{n}x^{\alpha+n} = 0 \tag{3}
 $$
 Now we will rearrange the third summation in this way:
 $$
@@ -30,7 +30,7 @@ $$
 And we can distribute terms in the first two summations in Eq. (3):
 $$
 \sum_{n=0}^{\infty}a_{n}(\alpha+n)(\alpha+n-1)x^{\alpha+n} \to \sum_{n=0}^{\infty}a_{n}(\alpha^2+n^2+2\alpha n-\alpha-n)x^{\alpha+n} \\[1.5em]
-\sum_{n=0}^{\infty}a_{n}(\alpha+n)x^{\alpha+n} \to \sum_{n=0}^{\infty}a_{n}(\alpha+n)x^{\alpha+n} \\[1.5em]
+\sum_{n=0}^{\infty}a_{n}(\alpha+n)x^{\alpha+n} \to \sum_{n=0}^{\infty}a_{n}(\alpha+n)x^{\alpha+n}
 $$
 Then,
 $$
@@ -46,7 +46,7 @@ $$
 $$
 Now if we write out the first two terms of the first sum, where $n=0$ and $n=1$, then we can combine the two summations together:
 $$
-(\alpha^2-p^2)a_{0}x^{\alpha} + [(\alpha+1)^2-p^2]a_{1}x^{\alpha+1} \linecont + \sum_{n=2}^{\infty}([(\alpha+n)^2-p^2]a_{n} + a_{n-2})x^{\alpha+n} = 0 \tag{6}
+(\alpha^2-p^2)a_{0}x^{\alpha} + [(\alpha+1)^2-p^2]a_{1}x^{\alpha+1} \\[0.2em] + \sum_{n=2}^{\infty}([(\alpha+n)^2-p^2]a_{n} + a_{n-2})x^{\alpha+n} = 0 \tag{6}
 $$
 Now, since a true solution to Eq. (1) must be equal to zero in all terms, the coefficients of the terms we have written out must also be equal to zero. Thus we have,
 $$
