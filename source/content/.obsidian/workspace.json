@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Differential Equations/Frobenius Method.md",
+                "file": "Math/Differential Equations/Bessel Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frobenius Method"
+              "title": "Bessel Functions"
             }
           }
         ]
@@ -173,8 +173,8 @@
   },
   "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
-    "Math/Differential Equations/Bessel Functions.md",
     "Math/Differential Equations/Frobenius Method.md",
+    "Math/Differential Equations/Bessel Functions.md",
     "Math/Complex Analysis/Analytic.md",
     "Math/Complex Analysis/Continuity.md",
     "Math/Calculus/The Taylor Series.md",
