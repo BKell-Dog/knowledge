@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Web/Sites I Like.md",
+                "file": "Math/Differential Equations/Frobenius Method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sites I Like"
+              "title": "Frobenius Method"
             }
           }
         ]
@@ -173,13 +173,15 @@
   },
   "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
-    "Math/Complex Analysis/Analytical.md",
-    "Math/Calculus/The Taylor Series.md",
     "Math/Differential Equations/Bessel Functions.md",
+    "Math/Differential Equations/Frobenius Method.md",
+    "Math/Complex Analysis/Analytic.md",
     "Math/Complex Analysis/Continuity.md",
+    "Math/Calculus/The Taylor Series.md",
+    "Math/Calculus/The Fourier Transform.md",
+    "Software/Web/Sites I Like.md",
     "Math/Calculus/Power Series.md",
     "Math/Calculus/The Differential.md",
-    "Math/Calculus/The Fourier Transform.md",
     "Math/Calculus/The Integral.md",
     "index.md",
     "Math/Calculus/assets/TaylorSeries2.png",
@@ -188,7 +190,6 @@
     "Math/Calculus/assets/TaylorSeries1.png",
     "Math/Calculus/assets",
     "Math/Complex Analysis",
-    "Software/Web/Sites I Like.md",
     "Math/Differential Equations",
     "Science/Biology and Health/EMF/Studies.md",
     "Science/Physics/Electricity/Static Electric Fields.md",
@@ -209,7 +210,6 @@
     "Science/Physics/Electromagnetism/Electricity",
     "Math/For Signal Processing/Heaviside Step Function.md",
     "Math/For Signal Processing/Convolution.md",
-    "Biographies/Paul Dirac.md",
     "Biographies",
     "Math/For Signal Processing"
   ]

@@ -13,20 +13,11 @@ const HomeButton: QuartzComponent = () => {
 HomeButton.css = `
 .q-home-btn {
   display: inline-block;
-  padding: 0.35rem 0.6rem;
   border-radius: 6px;
-  text-decoration: none;
   border: 1px solid rgba(0,0,0,0.08);
-  font-weight: 600;
   user-select: none;
-}
-
-/* a small hover/focus affordance */
-.q-home-btn:focus,
-.q-home-btn:hover {
-  transform: translateY(-1px);
-  text-decoration: none;
-}
-`;
+  font-size: .95rem;
+  line-height: 1.5rem;
+}`;
 
 export default (() => HomeButton) satisfies QuartzComponentConstructor;
