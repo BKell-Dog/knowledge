@@ -18,6 +18,8 @@ Sites which are beautifully designed.
 [000010](https://000010.neocities.org/)
 
 [opacity.ru](https://opacity.ru/)
+
+[Satsumas Blog](https://satsumasbloggen.com/)
 ## Blogs
 Hardware, Electronics, Reverse Engineering
 [Ken Shirrif's Blog - Computer history, restoring vintage computers, IC reverse engineering, and whatever](https://www.righto.com/)
