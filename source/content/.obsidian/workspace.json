@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Differential Equations/Bessel Functions.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bessel Functions"
+              "title": "index"
             }
           }
         ]
@@ -173,14 +173,17 @@
   },
   "active": "bcbdc902c5c0a92b",
   "lastOpenFiles": [
-    "Math/For Signal Processing/Convolution.md",
+    "Biographies/James Clerk Maxwell.md",
+    "Software/Web/Sites I Like.md",
+    "Engineering/Computer Engineering/Microprocessors/Interesting Projects.md",
+    "Software/Web/Static Sites/Tools.md",
     "Math/Differential Equations/Bessel Functions.md",
+    "Math/For Signal Processing/Convolution.md",
     "Math/Differential Equations/Frobenius Method.md",
     "Math/Complex Analysis/Analytic.md",
     "Math/Complex Analysis/Continuity.md",
     "Math/Calculus/The Taylor Series.md",
     "Math/Calculus/The Fourier Transform.md",
-    "Software/Web/Sites I Like.md",
     "Math/Calculus/Power Series.md",
     "Math/Calculus/The Differential.md",
     "Math/Calculus/The Integral.md",
@@ -205,11 +208,8 @@
     "Science/Physics/Electromagnetism/EM Waves/Polarization.md",
     "Science/Physics/Electromagnetism/EM Waves/Waves in Imperfect Dielectrics and Conductors.md",
     "Science/Physics/Electromagnetism/EM Waves/Reflections and Refractions.md",
-    "Science/Physics/Electromagnetism/The Maxwell Equations.md",
     "Science/Physics/Electromagnetism/EM Waves",
-    "Math/For Signal Processing/Dirac Delta Function.md",
     "Science/Physics/Electromagnetism/Electricity",
-    "Math/For Signal Processing/Heaviside Step Function.md",
     "Biographies",
     "Math/For Signal Processing"
   ]
