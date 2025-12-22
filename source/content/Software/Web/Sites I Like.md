@@ -14,8 +14,6 @@
 [Halftone Maker](https://halftonemaker.com/)
 
 [SVG Design](https://svg.designcode.io/)
-
-[React Bits](https://reactbits.dev/)
 ## Portfolios
 [opacity.ru](https://opacity.ru/)
 
@@ -24,8 +22,18 @@
 [Tachyon Art](https://tachyonart.neocities.org/)
 
 [Orhex0](https://www.orhex0.com/)
+
+## Art
+[The Index of Medieval Art](https://theindex.princeton.edu/)
+
+[The S. D. Cason Catholic Gallery](https://sdcason.com/)
+
+[Noice Magazine](https://noicemagazine.com/)
+
+## Directories
+[LoadMore - Site Archive](https://loadmo.re/)
 ## Blogs
-Hardware, Electronics, Reverse Engineering
+### Hardware, Electronics, Reverse Engineering
 [Ken Shirrif's Blog - Computer history, restoring vintage computers, IC reverse engineering, and whatever](https://www.righto.com/)
 
 [The Magic Smoke - Electronics Engineering, one stop for Microcontrollers, Analog, Digital Electronics](https://themagicsmoke1.wordpress.com/)
@@ -36,7 +44,7 @@ Hardware, Electronics, Reverse Engineering
 
 [Evan Applegate - The Map Guy](https://evanapplegate.com/)
 
-Long Posts
+### Long Posts
 [Just Fucking Use HTML](https://justfuckingusehtml.com/)
 
 ## Decentralization
@@ -53,9 +61,20 @@ Long Posts
 
 [Drop.lol - Send Files over the Network](https://drop.lol/)
 
+[Vert.sh - File Conversion](https://vert.sh/)
+
 ## Personalization
 [GNOME Themes](https://www.gnome-look.org)
 
+# Business Tools
+
+[Invoicely - Beautiful Invoice Template](https://invoicely.gg)
+
+[UseSend - Automated Emails](https://usesend.com/)
+
+[Formless Feedback](https://www.formlessfeedback.com/)
+
+[x402 - Internet Native Payments](https://www.x402.org/)
 # Dev Tools
 ## APIs
 [402.Markets - API Marketplace](https://402.markets/)
@@ -63,7 +82,14 @@ Long Posts
 [ChartDB](https://chartdb.io)
 
 [Deck.gl - Map Visualization](https://deck.gl/)
+
 ## Deployment
 [Dokploy - Deploy through Docker](https://dockploy.com/)
+
 ## Components
-[OpnForm](https://opnform.com/)
+[OpnForm - Build Beautiful Forms](https://opnform.com/)
+
+## UX/UI
+[React Bits](https://reactbits.dev/)
+
+[UX Snaps - UI Breakdowns](https://www.uxsnaps.com/)
