@@ -83,6 +83,7 @@
 
 [Deck.gl - Map Visualization](https://deck.gl/)
 
+[KiCanvas - Embed KiCad Schematics into a Webpage](https://kicanvas.org/home/)
 ## Deployment
 [Dokploy - Deploy through Docker](https://dockploy.com/)
 
