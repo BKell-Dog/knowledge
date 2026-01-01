@@ -19,7 +19,7 @@ and would be visualized as,
 ![](https://tutorial.math.lamar.edu/Classes/CalcIII/VectorFields_Files/image001.png)
 ![](https://tutorial.math.lamar.edu/Classes/CalcIII/VectorFields_Files/image002.png)
 
-One can see here that at each point $(x, y)$, there is a vector equal to $\begin{pmatrix} -y \\ x \end{pmatrix}$. At $(1, 2)$, then, we see a vector equal to $\begin{pmatrix} -2 \\ 1 \end{pmatrix}$.
+One can see here that at each point $(x, y)$, there is a vector equal to $\begin{pmatrix} -y \\ x \end{pmatrix}$. At $(1, 2)$, we see a vector equal to $\begin{pmatrix} -2 \\ 1 \end{pmatrix}$.
 
 A sample 3D vector field might be,
 $$
@@ -35,7 +35,6 @@ which is visualized as,
 ![](https://tutorial.math.lamar.edu/Classes/CalcIII/VectorFields_Files/image004.png)
 
 We can see here, too, that at a point $(1, 2, 3)$ there is a vector equal to $\begin{pmatrix} 2 \\ -4 \\ -2 \end{pmatrix}$.
-
 For much of calculus and physics, a vector field is required to be (and naturally is) [[Smoothness|smooth]] at all points.
 ## The 'Del' Operator
 We must define a symbolic vector, one which has not real dimensions but which must be a vector for us to use it in vector math, which we will refer to as 'del' and which we will denote $\vec{\nabla}$. This symbolic vector will have components $\vec{\nabla} = \langle \frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z} \rangle$, which may be applied to a scalar function, $F(x, y, z)$, or to a vector function, $\vec{F}(x, y, z) = \langle F_{1}(x, y, z), F_{2}(x, y, z), F_{3}(x, y, z) \rangle$.
@@ -71,11 +70,9 @@ which is called the [[Vector Fields#The Laplacian|Laplacian]] of $F$. Laplace's 
 
 
 # Curl
-All vectors fields contain a property we call *curl*, which is a measure of how much a vector field is curving at a given point. We do this by taking the derivative at that given point, with respect to all dimensions along which the given vector field may vary. For that reason it is required that the field must be differentiable at all points for which we want to calculate curl.
-
-Curl measures how much the vector field curves instantaneously relative to fixed unit vector axes. If we define a 3D space with unit vectors $\langle\hat{i}, \hat{j}, \hat{k}\rangle$, and we have a vector field $\vec{F}(x, y, z) = \langle P(x, y, z), Q(x, y, z), R(x, y, z)\rangle=P\hat{i}+Q\hat{j}+R\hat{k}$ in that space, then we can take the derivative of $\vec{F}$ at each point with respect to each axis to create a new vector field.
+Curl is a measure of how much a vector field rotates at a given point. We calculate curl as the cross product $\vec{\nabla} \times \vec{F}$, which results in another vector field function that represents curl values,
 $$
-curl \vec{F} = \nabla \times \vec{F} = \begin{vmatrix}
+curl \vec{F} = \vec{\nabla} \times \vec{F} = \begin{vmatrix}
 \hat{i} \quad \hat{j} \quad \hat{k} \\
 \frac{\partial}{\partial x} \quad \frac{\partial}{\partial y} \quad \frac{\partial}{\partial z} \\
 P \quad Q \quad R
@@ -92,7 +89,8 @@ P \quad Q \quad R
 %\end{vmatrix}
 = (\frac{\partial R}{\partial y} - \frac{\partial Q}{\partial z})\>\hat{i}\>\> + ( \frac{\partial P}{\partial z} - \frac{\partial R}{\partial x})\>\hat{j}\>\> + (\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y})\>\hat{k}
 $$
-where $\nabla$ is the [del operator](https://en.wikipedia.org/wiki/Del) $\nabla = \frac{\partial}{\partial x}\hat{i} + \frac{\partial}{\partial y}\hat{j} + \frac{\partial}{\partial z}\hat{k}$.
+
+All vectors fields contain a property we call *curl*, which is a measure of how much a vector field is curving at a given point. We do this by taking the derivative at that given point, with respect to all dimensions along which the given vector field may vary. For that reason it is required that the field must be differentiable at all points for which we want to calculate curl.
 
 # The Laplacian
 
