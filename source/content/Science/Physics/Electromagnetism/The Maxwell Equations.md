@@ -1,10 +1,10 @@
 The four Maxwell equations can be written in differential or integral form:
 $$
 \begin{aligned}
-\nabla\cdot\mathbf{E} &= \frac{\rho}{\varepsilon_0} &&\text{(Gauss's Law)}\\[6pt]
-\nabla\cdot\mathbf{B} &= 0 &&\text{(Gauss's Law for Magnetism)}\\[6pt]
-\nabla\times\mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} &&\text{(Faraday's Law)}\\[6pt]
-\nabla\times\mathbf{B} &= \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t} &&\text{(Ampère–Maxwell Law)}
+\vec{\nabla}\cdot \vec{E} &= \frac{\rho}{\varepsilon_0} &&\text{(Gauss's Law)}\\[6pt]
+\vec{\nabla}\cdot \vec{B} &= 0 &&\text{(Gauss's Law for Magnetism)}\\[6pt]
+\vec{\nabla}\times \vec{E} &= -\frac{\partial \vec{B}}{\partial t} &&\text{(Faraday's Law)}\\[6pt]
+\vec{\nabla}\times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial \vec{E}}{\partial t} &&\text{(Ampère–Maxwell Law)}
 \end{aligned}
 $$
 $$
