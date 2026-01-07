@@ -8,6 +8,8 @@
 [Hadrian](https://www.hadrian.co/)
 
 [000010](https://000010.neocities.org/)
+
+[Astro Darkness Theme](https://kpab.github.io/astro-darkness/)
 ## Digital Design
 [Fluidmotion](https://fluidmotion.app/)
 
@@ -29,6 +31,9 @@
 [The S. D. Cason Catholic Gallery](https://sdcason.com/)
 
 [Noice Magazine](https://noicemagazine.com/)
+
+## Science / Engineering
+[Visualize 2D Standing Waves](https://falstad.com/circosc/)
 
 ## Directories
 [LoadMore - Site Archive](https://loadmo.re/)
