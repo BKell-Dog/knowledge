@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Math/Calculus/Vector Calculus/Flux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Flux"
             }
           }
         ]
@@ -173,10 +173,19 @@
   },
   "active": "678f896a8ffc4d2e",
   "lastOpenFiles": [
-    "Software/Homelab/TrueNAS.md",
+    "Biographies/Michael Faraday.md",
+    "Math/Calculus/Mean Value Theorem.md",
+    "Science/Physics/Electromagnetism/Faraday's Law of Induction.md",
+    "Math/Calculus/Parameterization.md",
     "Math/Calculus/Vector Calculus/Vector Fields.md",
-    "Software/Homelab/Hardware.md",
+    "Math/Calculus/Vector Calculus/Flux.md",
+    "Math/Calculus/Vector Calculus/Stokes Theorem.md",
+    "Math/Calculus/Vector Calculus/Scalar Fields.md",
+    "Science/Physics/Electromagnetism/Untitled.md",
     "Science/Physics/Electromagnetism/The Maxwell Equations.md",
+    "index.md",
+    "Software/Homelab/TrueNAS.md",
+    "Software/Homelab/Hardware.md",
     "Math/Linear Algebra/Matrix Properties/Symmetry.md",
     "Math/Linear Algebra/Matrix Properties",
     "Math/Linear Algebra",
@@ -188,24 +197,15 @@
     "Math/Calculus/The Fourier Transform.md",
     "Math/Calculus/The Differential.md",
     "Math/Calculus/Power Series.md",
-    "Math/Calculus/Parameterization.md",
-    "Math/Calculus/Vector Calculus/Scalar Fields.md",
     "Biographies/James Clerk Maxwell.md",
-    "Math/Calculus/Vector Calculus/Stokes Theorem.md",
     "Math/Complex Analysis/Smoothness.md",
     "Math/Complex Analysis/Analyticity.md",
     "Math/Complex Analysis/Continuity.md",
     "Math/Calculus/Vector Calculus",
     "Science/Sociology/IQ/Articles.md",
-    "Math/For Signal Processing/Dirac Delta Function.md",
     "vectorFields.js",
     "vectorFieldRenderer.js",
     "vectorfield.js",
-    "Biographies/Michael Faraday.md",
-    "Science/Physics/Electromagnetism/EM Waves/Plane Waves.md",
-    "Science/Physics/Electromagnetism/EM Waves/Medium.md",
-    "Science/Physics/Electricity/Coulomb's Law.md",
-    "Science/Physics/Circuits/The Capacitor.md",
     "Nystag Power Supply.kicad_sch",
     "Unconfirmed 222746.crdownload",
     "KT0803L.kicad_sch",

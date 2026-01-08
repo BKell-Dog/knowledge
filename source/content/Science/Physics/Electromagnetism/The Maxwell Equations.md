@@ -28,11 +28,13 @@ $$
 $$
 
 ### Lenz's Law
-[[Michael Faraday]] recorded experimentally that a voltage $V$ was induced within a conductive coil with $n$ turns when the magnetic field passing through that coil was altered, and that the induced voltage was proportional to the change in the magnetic field. We can write this simple relationship as,
+Electromagnetic induction is the process where a changing magnetic field induces an electric current in a conductor. [[Michael Faraday]] recorded experimentally that a voltage $V$ was induced within a conductive coil with $n$ turns when the magnetic field passing through that coil was altered, and that the induced voltage was proportional to the change in the magnetic field. We can write this simple relationship as,
 $$
 V=n \frac{d\varphi}{dt}
 $$
 where $\varphi$ is the magnetic [[Flux|flux]] passing through the coil, and $t$ is of course time.
+
+Magnetic flux is a measurement of the magnitude of the magnetic field which passes through a surface in space
 
 ## Ampère-Maxwell Law
 

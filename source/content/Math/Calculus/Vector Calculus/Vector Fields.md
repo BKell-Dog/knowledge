@@ -7,7 +7,7 @@ F_{2}(x, y, z) \\
 F_{3}(x, y, z)
 \end{pmatrix} = F_{1}(x, y, z)\hat{x} + F_{2}(x, y, z)\hat{y} + F_{3}(x, y, z)\hat{z}
 $$
-where $\hat{x}$, $\hat{y}$, and $\hat{z}$ are unit vectors that define a 3D space. An example vector field in 2 dimensions might be,
+where $\hat{x}$, $\hat{y}$, and $\hat{z}$ are orthogonal unit vectors that define a 3D space. An example vector field in 2 dimensions might be,
 $$
 \vec{F}(x, y) = \begin{pmatrix}
 -y \\
@@ -15,10 +15,8 @@ x
 \end{pmatrix} = -y \hat{x} + x \hat{y}
 $$
 and would be visualized as,
-
 ![](https://tutorial.math.lamar.edu/Classes/CalcIII/VectorFields_Files/image001.png)
 ![](https://tutorial.math.lamar.edu/Classes/CalcIII/VectorFields_Files/image002.png)
-
 One can see here that at each point $(x, y)$, there is a vector equal to $\begin{pmatrix} -y \\ x \end{pmatrix}$. At $(1, 2)$, we see a vector equal to $\begin{pmatrix} -2 \\ 1 \end{pmatrix}$.
 
 A sample 3D vector field might be,

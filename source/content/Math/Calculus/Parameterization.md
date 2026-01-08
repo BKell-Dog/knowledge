@@ -8,6 +8,29 @@ The function $\vec{r}(t)$ maps the points on $[a, b]$ to the points along the cu
 
 Speed is defined formulaically as $||\vec{r}\>'(t)||$, where $\vec{r}\>'(t)$ is the curve's *velocity*, and therefore the curve's *acceleration* is defined as $\vec{r}\>''(t)$. Note that speed is a scalar.
 
+### Arc Length
+The length, $L$, of a [[Smoothness|smooth]] parameterized curve in $\mathbb{R}^n$ can be calculated as the infinite sum of infinitely small subsections of the curve $\vec{r}(t)$. Suppose we break $[a, b]$ into small subintervals $a = t_{0} < t_{1} < t_{2} \dots < t_{n} = b$, where $t_{0}$ and $t_{n}$ represent $a$ and $b$. Then, the chord from $\vec{r}(t_{i-1})$ to $\vec{r}(t_{i})$ has a length of $||\vec{r}(t_{i}) - \vec{r}(t_{i-1})||$, and we can approximate this chord by taking the tangent vector to $C$ at some arbitrary point between $t_{i-1}$ and $t_{i}$, which we can call $t_{i}^{*}$, and multiplying it by the length of the subinterval, which we can call $\Delta t_{i} = t_{i} - t_{i-1}$. So,
+$$
+||\vec{r}(t_{i}) - \vec{r}(t_{i-1})|| \approx ||\vec{r}\>'(t_{i}^{*})|| \Delta t_{i}
+$$
+and at infinity, which we encounter in the integral, this approximation becomes more and more exact. If we now take the sum of all these segments, we arrive at the approximate arc length:
+$$
+L \approx \sum_{i = 0}^n ||\vec{r}\>'(t_{i})|| \Delta t_{i}
+$$
+and by taking the limit of this sum as it goes to infinity, we arrive at the integral expression for the arc length:
+$$
+L = \lim_{ n \to \infty } \sum_{i = 0}^n ||\vec{r}\>'(t_{i})|| \Delta t_{i} = \int_{a}^{b} ||\vec{r}\>'(t)||\>dt
+$$
+
+This integral computes the **full** arc length. To compute only a partial arc length instead, we can define a partial interval of $[a, b]$ to evaluate along (and this new partial length is often denoted $s(t)$):
+$$
+s(t) = \int_{a}^{t} ||\vec{r}\>'(u)||\>du
+$$
+Note that for $s(t)$ to be a function of $t$ we must redefine the old variable $t$ as $u$, just for the sake of integration. Also note that the relationship between $s$ and $t$ is one of distance and speed, and that if we differentiate both sides of the above equation, we find an equation for speed reminiscent of physics,
+$$
+ds = |\vec{r}\>'(t)|dt \to |\vec{r}\>'(t)| = \frac{ds}{dt}
+$$
+
 ## Derivation
 If we desire to represent a complicated curve in space, it often becomes difficult to express the curve in the usual coordinate system. As a simple example, a unit circle in 2D space is represented by the equation $x^2+y^2=1$, where the circle is the set of all points that satisfy this equation. We can rewrite this equation as a function $y= f(x) = \sqrt{ 1-x^2 }$ as well. On top of that, we can also express the unit circle as a function like $\vec{r}(t)=(x(t),\>y(t))=(\cos(t),\>\sin(t))$, where $t$ is some parameter that exists on some interval, in this case $t \in [0, 2\pi]$. All values of $t$ on that interval are mapped by $\vec{r}(t)$ onto 2D space, and $\vec{r}(t)$ simply redefines the point $(x, y)$ in terms of two function $x(t)$ and $y(t)$ instead. The unit circle now is defined as all points $(x, y)$ for which $x=\cos(t)$ and $y=\sin(t)$ for $t \in [0, 2\pi]$.
 
