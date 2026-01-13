@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Calculus/Vector Calculus/Flux.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flux"
+              "title": "index"
             }
           }
         ]
@@ -173,17 +173,24 @@
   },
   "active": "678f896a8ffc4d2e",
   "lastOpenFiles": [
+    "Math/Differential Equations/Bessel Functions.md",
+    "Biographies/Oliver Heaviside.md",
+    "Biographies/Paul Dirac.md",
+    "Biographies/Isaac Newton.md",
+    "Biographies/James Clerk Maxwell.md",
     "Biographies/Michael Faraday.md",
-    "Math/Calculus/Mean Value Theorem.md",
+    "index.md",
+    "Science/Physics/Electromagnetism/The Maxwell Equations.md",
     "Science/Physics/Electromagnetism/Faraday's Law of Induction.md",
+    "Pasted image 20260110003153.png",
+    "Math/Differential Equations/Frobenius Method.md",
+    "Math/Calculus/Mean Value Theorem.md",
+    "Math/Calculus/Vector Calculus/Flux.md",
     "Math/Calculus/Parameterization.md",
     "Math/Calculus/Vector Calculus/Vector Fields.md",
-    "Math/Calculus/Vector Calculus/Flux.md",
     "Math/Calculus/Vector Calculus/Stokes Theorem.md",
     "Math/Calculus/Vector Calculus/Scalar Fields.md",
     "Science/Physics/Electromagnetism/Untitled.md",
-    "Science/Physics/Electromagnetism/The Maxwell Equations.md",
-    "index.md",
     "Software/Homelab/TrueNAS.md",
     "Software/Homelab/Hardware.md",
     "Math/Linear Algebra/Matrix Properties/Symmetry.md",
@@ -196,13 +203,7 @@
     "Math/Calculus/The Taylor Series.md",
     "Math/Calculus/The Fourier Transform.md",
     "Math/Calculus/The Differential.md",
-    "Math/Calculus/Power Series.md",
-    "Biographies/James Clerk Maxwell.md",
-    "Math/Complex Analysis/Smoothness.md",
-    "Math/Complex Analysis/Analyticity.md",
-    "Math/Complex Analysis/Continuity.md",
     "Math/Calculus/Vector Calculus",
-    "Science/Sociology/IQ/Articles.md",
     "vectorFields.js",
     "vectorFieldRenderer.js",
     "vectorfield.js",
