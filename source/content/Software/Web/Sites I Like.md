@@ -31,10 +31,6 @@
 [The S. D. Cason Catholic Gallery](https://sdcason.com/)
 
 [Noice Magazine](https://noicemagazine.com/)
-
-## Science / Engineering
-[Visualize 2D Standing Waves](https://falstad.com/circosc/)
-
 ## Directories
 [LoadMore - Site Archive](https://loadmo.re/)
 ## Blogs
@@ -49,12 +45,16 @@
 
 [Evan Applegate - The Map Guy](https://evanapplegate.com/)
 
-### Long Posts
-[Just Fucking Use HTML](https://justfuckingusehtml.com/)
-
+### Software
+https://meyerweb.com
+## Mathematics
+[Convergent Thinking](https://convergentthinking.sh/)
 ## Decentralization
 [Sovereign Engineering](https://sovereignengineering.io/)
 
+
+### Long Posts
+[Just Fucking Use HTML](https://justfuckingusehtml.com/)
 # Personal Tools
 
 [TinyTools - Directory of Small Tools](https://tinytools.directory/)
@@ -99,3 +99,20 @@
 [React Bits](https://reactbits.dev/)
 
 [UX Snaps - UI Breakdowns](https://www.uxsnaps.com/)
+
+# Companies
+
+## Manufacturing
+[Digital Metal - Custom Cast Metal Parts](https://www.digitalmetal.io/)
+
+## Suppliers
+[Quant Crystals - Buy Crystals](https://quantacrystals.org/)
+# Science, Engineering, Math
+## Math
+[Visualize 2D Standing Waves](https://falstad.com/circosc/)
+
+## Chemistry
+[MOF Anatomy - Visualizing Metal-Organic-Frameworks](https://mofanatomy.com/)
+
+## Electrical Engineering
+[Image to Dithered Solder Mask](https://i2cjak.github.io/)

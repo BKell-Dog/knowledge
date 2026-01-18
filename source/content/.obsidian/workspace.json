@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Software/Web/Sites I Like.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Sites I Like"
             }
           }
         ]
@@ -173,13 +173,13 @@
   },
   "active": "678f896a8ffc4d2e",
   "lastOpenFiles": [
+    "index.md",
     "Math/Differential Equations/Bessel Functions.md",
     "Biographies/Oliver Heaviside.md",
     "Biographies/Paul Dirac.md",
     "Biographies/Isaac Newton.md",
     "Biographies/James Clerk Maxwell.md",
     "Biographies/Michael Faraday.md",
-    "index.md",
     "Science/Physics/Electromagnetism/The Maxwell Equations.md",
     "Science/Physics/Electromagnetism/Faraday's Law of Induction.md",
     "Pasted image 20260110003153.png",
