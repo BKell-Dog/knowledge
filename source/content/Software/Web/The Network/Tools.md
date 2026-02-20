@@ -35,6 +35,8 @@
 
 [UX Snaps - UI Breakdowns](https://www.uxsnaps.com/)
 
+[CSS Layout Generator](https://layout.bradwoods.io/)
+
 ---
 # Business
 

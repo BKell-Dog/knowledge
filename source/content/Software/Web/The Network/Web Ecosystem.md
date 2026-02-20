@@ -10,6 +10,10 @@
 [Astro Darkness Theme](https://kpab.github.io/astro-darkness/)
 
 [Coastal Futurist](https://coastalfuturist.com/)
+
+https://bradwoods.io/
+
+[aerith.me](https://aerith.me/)
 ## Digital Design
 [Fluidmotion](https://fluidmotion.app/)
 
