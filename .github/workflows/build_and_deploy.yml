@@ -32,24 +32,20 @@ jobs:
         run: npm ci
         working-directory: _quartz
 
-      - name: Copy Quartz config and layout
-        run: |
-          cp .quartz-config/quartz.config.ts _quartz/quartz.config.ts
-          cp .quartz-config/quartz.layout.ts _quartz/quartz.layout.ts
-
-      - name: Copy custom components
-        run: cp -r .quartz-config/components/. _quartz/quartz/components/
+      - name: Copy config
+        run: cp .quartz-config/quartz.config.yaml _quartz/quartz.config.yaml
 
       - name: Copy favicon
         run: curl -L -o _quartz/quartz/static/icon.png https://willkelly.dev/assets/favicon.png
-
-      - name: Copy custom CSS
-        run: cp -r .quartz-config/styles/* _quartz/quartz/styles
 
       - name: Copy content
         run: |
           rm -rf _quartz/content
           rsync -av --exclude='.git' --exclude='.github' --exclude='.quartz-config' --exclude='_quartz' ./ _quartz/content/
+
+      - name: Install Quartz plugins
+        run: npx quartz plugin install
+        working-directory: _quartz
 
       - name: Build Quartz
         run: npx quartz build
