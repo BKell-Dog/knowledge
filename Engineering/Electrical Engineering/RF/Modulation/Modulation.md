@@ -1,0 +1,8 @@
+# Types of Modulation
+There are two main types of modulation that are applied to carrier waves: analog modulation and digital modulation. As one might expect, analog modulation encodes analog information onto a carrier wave by smoothly altering some quality of that wave; digital modulation encodes digital, bonary information onto the carrier wave by rapidly and discretely changing the state of the underlying wave.
+
+AM radio is an example of analog modulation. The simplest analog AM transmitters simply take a raw voice input signal, like from a microphone component in a circuit, and use the amplitude of that signal to determine the amplitude of the carrier signal at all points in time. Thus the transmitted AM is then smoothly modulated.
+
+[[Phase-Shift Keying#BPSK|BPSK]] is an example of digital modulation. Digital information is represented as binary bits, and like a square wave which rapidly moves between two distinct and steady states (e.g. 0V and 5V or -1V and 1V), a BPSK modulated carrier wave will shift in phase between some phase $\phi_{1}$ and some other phase, $\phi_{2}$, to which it is 180° opposed. This transition cannot happen slowly or smoothly, and in practice often happens at a rate much faster than the frequency of the carrier wave; a drawback of this fast state-switching behavior is the propagation of high-frequency harmonics, which are usually unwanted.
+
+A distinction between analog and digital modulation is seen in naming conventions. For example, the well-known frequency modulation technique that powers FM radio is analog. The digital analogue (lol) of FM is [[Frequency-Shift Keying|FSK]], or frequency-shift keying.

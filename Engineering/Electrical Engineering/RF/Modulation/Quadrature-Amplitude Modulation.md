@@ -1,0 +1,2 @@
+# Definition
+QAM or quadrature-amplitude modulation is a wave modulation technique that varies the phase and amplitude of the base carrier wave. If we wanted to visualize these modulations on a 2D plane, we could label one axis "amplitude" and another axis "phase": thus we have a 2D space with four quadrants, hence the name "quadrature". Then, any amount of amplitude modulation combined with any amount of phase modulation correspond to a single point on this 2D plane.

@@ -1,8 +1,10 @@
 Here I will log my notes when reading through the writings of various historical Thinkers while collecting their works together for [the Work of the Mind](https://wavelab.neocities.org/mind/).
 
-1. [William Hamilton](https://wavelab.neocities.org/mind/letter-to-rev-archibald-h-hamilton/)
+1. [Carl Friedrich Gauss](https://wavelab.neocities.org/mind/letter-to-heinrich-olbers/)
+	
+1. [William Hamilton
 	1. Category - Illumination, Waking over Bridge
-	2. Walked over the Broom Bridge (*Droichead Broome*) in Dublin, over the Royal Canal, and felt an "electric circuit... close and a spark \[flash\] forth", when he realized the relationship of quaternions.
+	2. Walked over the Broom Bridge (*Droichead Broome*) in Dublin, over the Royal Canal, and felt an "electric circuit... close and a spark \[flash\] forth", when he realized the relationship of quaternions.
 2. [Hermann von Helmholtz](https://wavelab.neocities.org/mind/memories/.)
 	1. Category - General: Bodily Freshness
 	2. A long speech, which I still trimmed greatly. His conception of knowledge, learning, and creativity seems to be the same fundamentally as Poincaré's or Hamilton's, namely that only after a period of mental exhaustion trying to sort out a problem, the endeavor must be abandoned, the body refreshed, and only then the subconscious mind at some unexpected time will proffer a new answer. It agrees with Kekulé and Mendeleev in that the mind must undergo immense prior work to become an expert, to know everything about a problem beforehand, and then the subconscious can uncover something new: scientific innovation never comes to a layman whose mind has not been extensively prepared first.
@@ -13,7 +15,7 @@ Here I will log my notes when reading through the writings of various historical
 4. [Henri Poincaré](https://wavelab.neocities.org/mind/mathematical-invention/)
 	1. Category - Illumination, Boarding the Omnibus
 	2. Poincaré speaks highly of intuition and feeling in his entire essay, describing mathematics as a process of rigor and reason which is spurred on by aesthetic considerations.
-	3. He filled his mind with reasonings about Fuchsian functions before "forgetting his mathematical work", at which point his sudden illumination came shortly after.
+	3. He filled his mind with reasonings about Fuchsian functions before "forgetting his mathematical work", at which point his sudden illumination came shortly after as he boarded a carriage.
 5. [James Watson](https://wavelab.neocities.org/mind/the-double-helix-a-personal-account-of-the-discovery-of-the-structure-of-dna/)
 	1. Category - Spatial Imagining
 	2. Watson arrived at his conclusion for the pair bonding of the nucleotides after first drawing out chemical rings, and later by fiddling with cardboard models of the nucleotides' chemical structures. This visualization culminated after the better part of a week.

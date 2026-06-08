@@ -1,3 +1,4 @@
+# Definition
 The four Maxwell equations can be written in differential or integral form:
 $$
 \begin{aligned}
@@ -15,6 +16,7 @@ $$
 \oint_{\partial S}\mathbf{B}\cdot d\boldsymbol{\ell} &= \mu_0\iint_S \mathbf{J}\cdot d\mathbf{A} + \mu_0\varepsilon_0\frac{d}{dt}\iint_S \mathbf{E}\cdot d\mathbf{A} &&\text{(Ampère–Maxwell Law)}
 \end{aligned}
 $$
+
 # Derivation
 ## Gauss's Law
 

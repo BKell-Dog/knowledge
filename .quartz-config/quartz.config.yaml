@@ -138,8 +138,3 @@ plugins:
       position: right
       priority: 30
       display: desktop-only
-  - source: github:quartz-community/backlinks
-    enabled: true
-    layout:
-      position: right
-      priority: 40

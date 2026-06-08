@@ -73,4 +73,7 @@ See [[Convolution]].
 3. [Lecture Notes on the Dirac Delta Function, Fourier Transform, Laplace Transform](https://materia.dfa.unipd.it/salasnich/dfl/dfl.pdf) by Luca Salasnich
 4. [Delta Function](https://books.physics.oregonstate.edu/LinAlg/ch11.html) by Corinne Manogue and Tevian Dray
 
+## See Also
+[[The Integral]]
+
 [^1]: See [Lecture Notes on the Dirac Delta Function, Fourier Transform, Laplace Transform](https://materia.dfa.unipd.it/salasnich/dfl/dfl.pdf) by Luca Salasnich, pg. 1

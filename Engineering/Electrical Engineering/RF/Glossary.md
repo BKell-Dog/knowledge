@@ -1,0 +1,2 @@
+- Baseband
+	- In digital modulation, a low-frequency data signal is combined with a high-frequency carrier signal, so that the data bits modulate the carrier signal. The information-carrying waveform is called the *baseband signal*, and operates at the *baseband frequency*.

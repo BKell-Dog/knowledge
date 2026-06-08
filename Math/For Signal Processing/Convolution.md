@@ -19,7 +19,7 @@ Now, we must recognize that all functions can be expressed as an infinite series
 $$
 f(t)=t^2\>(\delta(t+2)\>+\>\delta(t-1))
 $$
-is equal to zero everywhere except at $t=-2$ and $t=1$, where it is equal to $4$ and $1$ respectively. Generally, one can pick out a single point of any function by multiplying it by a delta function translated to that single point,
+is equal to zero everywhere except at $t=-2$ and $t=1$, where it is equal to $4$ and $1$ respectively. Generally, one can "pick out" a single point of any function by multiplying it by a delta function translated to that single point,
 
 We can then imagine that an infinite series of delta functions would give us an infinite series of points that lie on $f(t)$,
 $$

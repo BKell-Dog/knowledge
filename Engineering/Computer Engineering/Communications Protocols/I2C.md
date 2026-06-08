@@ -1,0 +1,1 @@
+"I2C" is the most common name for the protocol also called "IIC" or "I²C", and which stands for *Inter-Integrated Circuit*. This protocol uses two wires, a data wire and a clock wire, to allow one or many microcontrollers to control a large number of peripheral devices in a multi-master/multi-slave relationship.

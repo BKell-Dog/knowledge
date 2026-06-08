@@ -25,3 +25,6 @@ See [his notebook](https://web.archive.org/web/20210830003053/https://www.rigb.o
 
 ## Letters
 - [The Letters of Faraday and Schoenbein 1836-1862, With Notes, Comments and References to Contemporary Letters](https://archive.org/details/lettersoffaraday00fararich/page/n7/mode/2up)
+
+# Works on Him
+- [Faraday’s Notebooks: The Active Organization of Creative Science by Ryan Tweney](https://gwern.net/doc/cs/linkrot/archiving/1991-tweney.pdf)
