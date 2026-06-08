@@ -1,7 +1,7 @@
 configuration:
   pageTitle: "Knowledge Base"
   pageTitleSuffix: ""
-  enableSPA: false
+  enableSPA: true
   enablePopovers: true
   locale: "en-US"
   baseUrl: "willkelly.dev/knowledge"
@@ -89,8 +89,18 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
+  - source: github:quartz-community/article-title
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
 
   # Layout — left sidebar
+  - source: github:quartz-community/page-title
+    enabled: true
+    layout:
+      position: left
+      priority: 10
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -108,6 +118,8 @@ plugins:
       position: left
       priority: 50
       display: desktop-only
+    options:
+      folderClickBehavior: collapse
 
   # Layout — right sidebar
   - source: github:quartz-community/darkmode
