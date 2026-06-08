@@ -41,7 +41,7 @@ jobs:
         run: cp -r .quartz-config/components/. _quartz/quartz/components/
 
       - name: Copy favicon
-        run: cp source/assets/favicon.png _quartz/quartz/static/icon.png
+        run: curl -L -o _quartz/quartz/static/icon.png https://willkelly.dev/assets/favicon.png
 
       - name: Copy custom CSS
         run: cp -r .quartz-config/styles/* _quartz/quartz/styles
