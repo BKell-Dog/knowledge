@@ -6,4 +6,4 @@ This page is an [Obsidian](https://obsidian.md/) notebook turned into HTML, so t
 - The Network $\to$ [[Web Ecosystem]]
 - Biographies $\to$ [[Michael Faraday]]
 
-[← Return to willkelly.dev](https://willkelly.dev/)
+<a href="https://willkelly.dev" target="_top">← Return to willkelly.dev</a>
