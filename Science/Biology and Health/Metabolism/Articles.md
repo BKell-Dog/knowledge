@@ -1,0 +1,1 @@
+[How Suppressed is Your Favorite Influencer's Metabolism?](https://becomeuncivilized.com/p/how-suppressed-is-your-favorite-influencers) by Matt Quinn

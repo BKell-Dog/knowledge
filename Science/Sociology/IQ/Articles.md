@@ -1,0 +1,1 @@
+[Worldwide subnational intelligence estimates](https://www.emilkirkegaard.com/p/worldwide-subnational-intelligence) by Emil Kirkegaard
