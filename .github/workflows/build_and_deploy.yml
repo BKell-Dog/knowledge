@@ -38,6 +38,9 @@ jobs:
       - name: Copy favicon
         run: curl -L -o _quartz/quartz/static/icon.png https://willkelly.dev/assets/favicon.png
 
+      - name: Copy custom variables
+        run: cp .quartz-config/styles/variables.scss _quartz/quartz/styles/variables.scss
+
       - name: Copy content
         run: |
           rm -rf _quartz/content
