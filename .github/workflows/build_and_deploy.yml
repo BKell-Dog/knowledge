@@ -38,13 +38,13 @@ jobs:
           cp .quartz-config/quartz.layout.ts _quartz/quartz.layout.ts
 
       - name: Copy custom components
-        run: cp -r quartz-config/components/. _quartz/quartz/components/
+        run: cp -r .quartz-config/components/. _quartz/quartz/components/
 
       - name: Copy favicon
         run: cp source/assets/favicon.png _quartz/quartz/static/icon.png
 
       - name: Copy custom CSS
-        run: cp -r quartz-config/styles/* _quartz/quartz/styles
+        run: cp -r .quartz-config/styles/* _quartz/quartz/styles
 
       - name: Copy content
         run: |
